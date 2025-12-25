@@ -1,9 +1,9 @@
-defmodule Types.MixProject do
+defmodule Shiva.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :types,
+      app: :shiva,
       version: "0.0.1",
       elixir: "~> 1.19",
       start_permanent: Mix.env() == :prod,

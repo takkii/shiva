@@ -1,4 +1,4 @@
-defmodule Types do
+defmodule Shiva do
   def elixir do
     case HTTPoison.get("http://localhost:1337/datas") do
       {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->

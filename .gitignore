@@ -24,3 +24,6 @@ shiva-*.tar
 
 # Ignore overdrive.
 /overdrive/
+
+# Ignore, Jetbrain setting folder.
+/.idea/

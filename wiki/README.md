@@ -1,6 +1,6 @@
 ### Shivaの使い方
 
-※ 母国語(日本語)で書きます。英語化、GitHubサイトからFireFoxブラウザのGoogle翻訳などでお願いします。
+※ 母国語(日本語)で書きます。英語などは、各自環境でお願いします。
 
 ```markdown
 # npmからtypes-serverをインストールする
@@ -16,7 +16,10 @@ heat branch overdrive takkii overdrive main
 cd overdrive && yarn install
 
 # overdrive/jsonで実行する
-cd json && node collect.js
+cd json && node toss.js
+
+# 上階層に移動する
+cd .. && cd ..
 
 # 依存解消する
 mix deps.get
@@ -31,7 +34,7 @@ iex -S mix
 
 ※ ①と②は場合により、どちらでもよい。
 
-# 終了は、Ctrl+C を2回押す。
+# ② 終了は、Ctrl+C を2回押す。
 ```
 
 ### 出力結果 (上部からインタラクティブシェル、下部はコマンドライン)
